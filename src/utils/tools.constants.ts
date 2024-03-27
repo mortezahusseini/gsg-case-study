@@ -3,18 +3,34 @@ import { TicketsAgencyType } from './tools.models'
 
 export const staticTicketsData: TicketsAgencyType[] = [
   {
-    id: '1',
     source: 'Amsterdam',
     destination: 'Berlin',
   },
   {
-    id: '2',
     source: 'Paris',
     destination: 'London',
   },
   {
-    id: '3',
     source: 'London',
     destination: 'Amsterdam',
+  },
+]
+
+export const staticTicketsDataForTest: TicketsAgencyType[] = [
+  {
+    source: 'LA',
+    destination: 'Berlin',
+  },
+  {
+    source: 'Paris',
+    destination: 'Tehran',
+  },
+  {
+    source: 'London',
+    destination: 'LA',
+  },
+  {
+    source: 'Berlin',
+    destination: 'Paris',
   },
 ]
