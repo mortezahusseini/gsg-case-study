@@ -1,4 +1,4 @@
-import { staticTicketsData, ticketsMockData } from './tools.constants'
+import { staticTicketsData } from './tools.constants'
 import { TicketsAgencyType } from './tools.models'
 
 // NOTE: a function filters the repetitive items and returns a string including all of the items
@@ -21,5 +21,4 @@ export const getSortTicketsItemsInString: (tickets: TicketsAgencyType[]) => stri
 }
 
 // NOTE: result part
-getSortTicketsItemsInString(ticketsMockData) // => return mock data
 getSortTicketsItemsInString(staticTicketsData) // => 'Berlin,Amsterdam,London,Paris'
